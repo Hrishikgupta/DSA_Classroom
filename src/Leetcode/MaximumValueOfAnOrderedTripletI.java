@@ -3,7 +3,7 @@ package Leetcode;
 //leetcode-2873
 public class MaximumValueOfAnOrderedTripletI {
     public static void main(String[] args) {
-        int[] num = {1000000,1,1000000};
+        int[] num = {12,6,1,2,7};
         System.out.println(maximumTripletValue(num));
     }
     //<--------------------Brute force---------------------->
@@ -49,7 +49,7 @@ public class MaximumValueOfAnOrderedTripletI {
         int dmax = 0;
         int imax = 0;
         for(int num: nums){
-            res = Math.max(res, (long)dmax*imax);
+            res = Math.max(res, (long)dmax*num);
             dmax = Math.max(dmax, imax-num);
             imax = Math.max(imax, num);
         }
