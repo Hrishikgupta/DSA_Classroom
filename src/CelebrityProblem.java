@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-
+//https://www.geeksforgeeks.org/problems/the-celebrity-problem/1
 public class CelebrityProblem {
     public static void main(String[] args) {
         int[][] mat = {
