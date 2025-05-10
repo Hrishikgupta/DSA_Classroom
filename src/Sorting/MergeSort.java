@@ -9,6 +9,9 @@ public class MergeSort {
         mergeSortInPlace(arr, 0,  arr.length);
         System.out.println(Arrays.toString(arr));
     }
+
+    //Time Complexity: O(NlogN)
+    //Space Complexity: O(N)
     static int[] mergeSort(int[] arr){
         if(arr.length==1){
             return arr;
