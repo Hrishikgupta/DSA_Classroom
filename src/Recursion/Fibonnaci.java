@@ -3,7 +3,7 @@ package Recursion;
 public class Fibonnaci {
     public static void main(String[] args) {
         for(int i=0;i<=50;i++){
-            //System.out.print(fibo(i)+" ");
+            System.out.print(fibo(i)+" ");
             System.out.print(fiboUsingFormulla(i)+ " ");
             System.out.println(fiboUsingFormulla2(i));
         }
